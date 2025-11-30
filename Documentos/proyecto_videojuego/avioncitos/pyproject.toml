@@ -1,0 +1,21 @@
+[project]
+name = "avioncitos"
+version = "1.0.0"
+description = "Juego retro de avioncitos"
+authors = [
+    {name = "Tu Nombre", email = "tu@email.com"},
+]
+dependencies = [
+    "pygame>=2.5.0",
+]
+requires-python = ">=3.8"
+
+[project.scripts]
+avioncitos = "avioncitos.main:main"
+
+[tool.uv]
+dev-dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
